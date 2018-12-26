@@ -32,7 +32,7 @@ server.on('listening', () => {
 let flag = true;
 
 server.on('message', (message, remote) => {
-  if ("192.168.43.208" === remote.address) {
+  if (controller.options.ip === remote.address) {
     const line = message.toString().trim().split(/;/)
     const data = {}
     for (let i = 0; i < line.length; i++) {
