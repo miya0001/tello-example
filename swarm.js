@@ -18,29 +18,29 @@ drone2.takeoff()
 setTimeout(() => {
   drone1.sendCommand('up 100')
   drone2.sendCommand('up 100')
-}, 3000);
+}, 5000);
 
 setTimeout(() => {
   drone1.sendCommand('flip f')
   drone2.sendCommand('flip f')
-}, 6000);
+}, 8000);
 
 setTimeout(() => {
   drone1.sendCommand('flip b')
   drone2.sendCommand('flip b')
-}, 9000);
+}, 11000);
 
 setTimeout(() => {
   drone1.sendCommand('flip l')
   drone2.sendCommand('flip r')
-}, 12000);
+}, 14000);
 
 setTimeout(() => {
   drone1.sendCommand('flip r')
   drone2.sendCommand('flip l')
-}, 15000);
+}, 17000);
 
 setTimeout(() => {
   drone1.land()
   drone2.land()
-}, 18000);
+}, 20000);
