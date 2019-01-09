@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "tello": "git+https://github.com/miya0001/node-tello-edu.git"
+    "node-tello-edu": "^1.0.0"
   }
 }
