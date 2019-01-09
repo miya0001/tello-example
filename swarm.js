@@ -2,7 +2,7 @@
 
 'use strict'
 
-const tello = require('tello')
+const tello = require('node-tello-edu')
 
 const drone1 = new tello({
   ip: "192.168.43.208",
